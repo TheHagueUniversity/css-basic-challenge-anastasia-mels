@@ -1,0 +1,187 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+font-family: 'Oswald', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #0a0a0a;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #FFC378;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  margin: 0;
+  color: #E87C6D;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #0a0a0a;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #FFFFE0;
+  color: #F7FFF7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #FBC5BF;
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #E3A1AB;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #0a0a0a;
+}
+.projects .btn:hover {
+  background: #FFDAB9;
+  border: 0;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #FFDAB9;
+}
+
+.work-experience a{
+  color: #0a0a0a;
+}
+
+.work__btn{
+  border: 1px solid #0a0a0a;
+  color: #F7FFF7;
+  background: #E3A1AB;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 4px;
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.work__btn:hover{
+  padding: 12px;
+  background: #FFDAB9;
+}
+
+.button{
+  text-align: center;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/photo1.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+/* Hobbie
+------------------------------------*/
+.hobbie{
+  background-color: #FBC5BF;
+}
+
+.hobbie img{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #FFFFE0;
+  color: #F7F100;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
